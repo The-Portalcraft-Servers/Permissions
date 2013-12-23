@@ -1,0 +1,121 @@
+users:
+  101sierra101:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - lain.user.mod
+  8404Heather:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - lain.user.mod
+  anminecrafter:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - lain.user.admin
+    - lain.user.mod
+    - lain.user.op
+  cabbex:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - lain.user.mod
+    - multiverse.netherportals.serv-c
+    - multiverse.netherportals.serv-creative
+    - multiverse.netherportals.serv-p
+  carlgo11:
+    group: Owner
+    subgroups: []
+    permissions:
+    - lain.user.op
+    - lain.user.owner
+  carlth2003:
+    group: Default
+    subgroups: []
+    permissions: []
+  charlie835:
+    group: Default
+    subgroups: []
+    permissions: []
+  flamehawk33:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - lain.user.mod
+  gage446:
+    group: Default
+    subgroups: []
+    permissions: []
+  ianfreeman:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - lain.user.mod
+  jacke0910:
+    group: VIP+
+    subgroups: []
+    permissions: []
+  jonkanon03:
+    group: Co-Owner
+    subgroups: []
+    permissions:
+    - lain.user.co-owner
+    - lain.user.op
+  kickassjacob:
+    group: Default
+    subgroups: []
+    permissions: []
+  mixis221:
+    group: Moderator
+    subgroups:
+    - whitelisted
+    permissions:
+    - lain.user.mod
+  oand:
+    group: Default
+    subgroups: []
+    permissions: []
+  olback:
+    group: Owner
+    subgroups:
+    - whitelisted
+    permissions:
+    - lain.user.owner
+    - prism.view
+  olburk:
+    group: Builder++
+    subgroups:
+    - whitelisted
+    permissions: []
+  Pahlos:
+    group: Default
+    subgroups: []
+    permissions:
+    - lain.user.mod
+    - lain.user.moderator
+  Palstales:
+    group: Default
+    subgroups: []
+    permissions: []
+  psgs:
+    group: Default
+    subgroups: []
+    permissions: []
+  PunkZ3brah:
+    group: Default
+    subgroups: []
+    permissions: []
+  Stubbisxxx:
+    group: Default
+    subgroups:
+    - whitelisted
+    permissions: []
+  Zam_2000:
+    group: Builder++
+    subgroups: []
+    permissions: []
+  zyxep:
+    group: Vip
+    subgroups: []
+    permissions: []

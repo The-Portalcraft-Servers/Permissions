@@ -1,0 +1,177 @@
+# Group inheritance
+# any inherited groups prefixed with a g: are global groups
+# These groups are defined in the globalgroups.yml
+# and can be inherited in any worlds groups/users.yml.
+#
+# Groups without the g: prefix are groups local to this world
+# and defined in the this groups.yml file.
+
+groups:
+  Default:
+    default: true
+    permissions:
+    - bukkit.command.kill
+    - essentials.gamemode
+    - mcbans.alts.view
+    - mcbans.ban.view
+    - mcbans.kick.view
+    - mywarp.warp.basic
+    - mywarp.warp.basic.*
+    - pl.builder
+    - plotme.limit.7
+    - plotme.use
+    - plotme.use.add
+    - plotme.use.remove
+    inheritance:
+    - g:essentials_default
+    - g:essentials_builder
+    - g:bukkit_default
+    info:
+      prefix: '&a[&dCreative&a] &2[Builder]&f'
+      build: true
+      suffix: ''
+  Co-Owner:
+    default: false
+    permissions:
+    - '*'
+    - -vanish.*
+    inheritance:
+    - admin
+    info:
+      prefix: '&a[&dCreative&a] &d[Co-Owner]&f'
+      build: true
+      suffix: ''
+  Owner:
+    default: false
+    permissions:
+    - '*'
+    - essentials.*
+    - essentials.chat.color
+    - essentials.delwarp
+    - essentials.powertool
+    - essentials.powertooltoggle
+    - groupmanager.listgroups
+    - groupmanager.mandemote
+    - groupmanager.mangcheckp
+    - groupmanager.manglistp
+    - groupmanager.manpromote
+    - groupmanager.mansave
+    - groupmanager.manselect
+    - groupmanager.mantogglevalidate
+    - groupmanager.manuadd
+    - groupmanager.manucheckp
+    - groupmanager.manudel
+    - groupmanager.manulistp
+    - groupmanager.manwhois
+    - groupmanager.notify.other
+    - reload.use
+    - world.edit.*
+    inheritance:
+    - Co-Owner
+    info:
+      prefix: '&a[&dCreative&a] &d[Owner]&f'
+      build: true
+      suffix: ''
+  Builder+:
+    default: false
+    permissions:
+    - mywarp.warp.basic.*
+    - plotme.limit.15
+    - plotme.use
+    - plotme.use.add
+    inheritance:
+    - default
+    - g:essentials_builder+
+    info:
+      prefix: '&a[Builder&d+&a]&f'
+      build: true
+      suffix: ''
+  Builder++:
+    default: false
+    permissions:
+    - mcbans.lookup.player
+    - mywarp.warp.soc.*
+    - plotme.limit.30
+    - plotme.use
+    - plotme.use.add
+    inheritance:
+    - default
+    - g:essentials_builder++
+    - g:bukkit_default
+    info:
+      prefix: '&a[&dCreative&a] &a[Builder&d++&a]&f'
+      build: true
+      suffix: ''
+  Vip:
+    default: false
+    permissions:
+    - bukkit.command.kill
+    - essentials.hat
+    - essentials.tp
+    - Lain.say.*
+    - pl.vip
+    - plotme.limit.70
+    - plotme.use
+    - plotme.use.add
+    inheritance:
+    - default
+    - g:essentials_vip
+    - g:bukkit_default
+    info:
+      prefix: '&a[&dCreative&a] &d[VIP]&f'
+      build: true
+      suffix: ''
+  VIP+:
+    default: false
+    permissions:
+    - group.VIP+
+    inheritance:
+    - vip
+    - g:essentials_vip+
+    info:
+      prefix: '&a[&dCreative&a] &d[VIP&d+&a]&f'
+      build: true
+      suffix: ''
+  Moderator:
+    default: false
+    permissions:
+    - Lain.overrid.command
+    - mcbans.admin
+    - mcbans.ban.ip
+    - mcbans.ban.local
+    - mcbans.ban.temp
+    - mcbans.kick
+    - mcbans.lookup.ban
+    - mcbans.lookup.player
+    - Pl.Mod
+    inheritance:
+    - vip+
+    - g:essentials_moderator
+    - g:bukkit_moderator
+    - g:towny_moderator
+    info:
+      prefix: '&a[&dCreative&a] &e[Mod]&f'
+      build: true
+      suffix: ''
+  Admin:
+    default: false
+    permissions:
+    - banhammer.pardon.*
+    - essentials.unban
+    - essentials.unbanip
+    - mcbans.ban.global
+    - pl.admin
+    - prism.alerts
+    - prism.help
+    - prism.lookup
+    - prism.tp
+    - prism.wand.*
+    inheritance:
+    - moderator
+    - g:essentials_admin
+    - g:bukkit_admin
+    - g:towny_admin
+    info:
+      prefix: '&a[&dCreative&a] &2[Admin]&f'
+      build: true
+      suffix: ''

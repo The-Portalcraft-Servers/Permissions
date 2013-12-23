@@ -1,0 +1,146 @@
+# Group inheritance
+#
+# Any inherited groups prefixed with a g: are global groups
+# and are inherited from the GlobalGroups.yml.
+#
+# Groups without the g: prefix are groups local to this world
+# and are defined in the this groups.yml file.
+#
+# Local group inheritances define your promotion tree when using 'manpromote/mandemote'
+
+groups:
+  Default:
+    default: false
+    permissions:
+    - -bukkit.command.kill
+    inheritance:
+    - g:bukkit_default
+    - g:essentials_default
+    - g:essentials_builder
+    info:
+      prefix: '&a[&dSurvival&a]&a &2[Builder]&f'
+      build: true
+      suffix: ''
+  Owner:
+    default: false
+    permissions:
+    - -vanish.*
+    - lain.group.owner
+    inheritance:
+    - admin
+    info:
+      prefix: '&a[&dSurvival&a]&a &d[Owner]&f'
+      build: true
+      suffix: ''
+  vip:
+    default: false
+    permissions:
+    - group.Vip
+    - multiverse.portal.access.spawn-p
+    - spleef.start
+    inheritance:
+    - builder++
+    - g:essentials_vip
+    info:
+      prefix: '&a[&dSurvival&a]&a &d[VIP]&f'
+      build: true
+      suffix: ''
+  Builder+:
+    default: false
+    permissions: []
+    inheritance:
+    - builder
+    - g:essentials_builder+
+    info:
+      prefix: '&a[&dSurvival&a]&a &2[Builder&d+&a]&f'
+      build: true
+      suffix: ''
+  Co-Owner:
+    default: false
+    permissions:
+    - -vanish.*
+    - essentials.*
+    inheritance:
+    - head-admin
+    info:
+      prefix: '&a[&dSurvival&a]&a &d[Co-Owner]&f'
+      build: true
+      suffix: ''
+  Builder++:
+    default: false
+    permissions:
+    - group.builder++
+    inheritance:
+    - builder+
+    - g:essentials_builder++
+    info:
+      prefix: '&a[&dSurvival&a]&a &2[Builder&d++&a]&f'
+      build: true
+      suffix: ''
+  Builder:
+    default: true
+    permissions:
+    - chairs.sit
+    - ChestShop.shop.*
+    - multiverse.portal.access.spawn-creative
+    - spleef.join.1
+    - spleef.start
+    - towny.wild.destroy.*
+    - towny.wild.switch.*
+    inheritance:
+    - default
+    - g:essentials_builder
+    - g:towny_builder
+    info:
+      prefix: '&a[&dSurvival&a]&a &2[Builder]&f'
+      build: true
+      suffix: ''
+  VIP+:
+    default: false
+    permissions:
+    - group.VIP+
+    inheritance:
+    - vip
+    - g:essentials_vip+
+    info:
+      prefix: '&a[&dSurvival&a]&a &d[VIP&d+&a]&f'
+      build: true
+      suffix: ''
+  Head-Admin:
+    default: false
+    permissions:
+    - group.headadmin
+    inheritance:
+    - admin
+    info:
+      prefix: '&a[&dSurvival&a]&a &d[Head-Admin]&f'
+      build: true
+      suffix: ''
+  Moderator:
+    default: false
+    permissions:
+    - group.moderator
+    - lain.group.mod
+    inheritance:
+    - vip+
+    - g:bukkit_moderator
+    - g:essentials_moderator
+    - g:towny_moderator
+    info:
+      prefix: '&a[&dSurvival&a]&a &e[MOD]&f'
+      build: true
+      suffix: ''
+  Admin:
+    default: false
+    permissions:
+    - group.admin
+    - lain.group.admin
+    inheritance:
+    - moderator
+    - g:bukkit_admin
+    - g:essentials_admin
+    - g:towny_admin
+    info:
+      prefix: '&a[&dSurvival&a]&a &a[Admin]&f'
+      build: true
+      suffix: ''

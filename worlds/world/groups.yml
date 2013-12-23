@@ -1,0 +1,182 @@
+# Group inheritance
+#
+# Any inherited groups prefixed with a g: are global groups
+# and are inherited from the GlobalGroups.yml.
+#
+# Groups without the g: prefix are groups local to this world
+# and are defined in the this groups.yml file.
+#
+# Local group inheritances define your promotion tree when using 'manpromote/mandemote'
+
+groups:
+  Default:
+    default: false
+    permissions:
+    - -bukkit.command.kill
+    inheritance:
+    - g:bukkit_default
+    - g:essentials_default
+    info:
+      prefix: '&e'
+      build: true
+      suffix: ''
+  Owner:
+    default: false
+    permissions:
+    - -vanish.*
+    - '*'
+    - groupmanager.mangaddp
+    - lain.cmd.delalias
+    - lain.cmd.setalias
+    - lain.cmd.setcmd
+    - lain.group.owner
+    - lain.tag
+    inheritance:
+    - admin
+    - g:groupmanager_moderator
+    - g:groupmanager_admin
+    info:
+      prefix: '&a[&dHub&a]&a &d[Owner]&f'
+      build: true
+      suffix: ''
+  whitelisted:
+    default: false
+    permissions:
+    - group.whitelisted
+    - multiverse.portal.access.spawn-whitelist
+    inheritance: []
+    info:
+      prefix: '&c[Report this error to Owner]&r'
+      build: true
+      suffix: ''
+  Admin:
+    default: false
+    permissions:
+    - -essentials.fly
+    - group.admin
+    - lain.group.admin
+    - Pl.Admin
+    inheritance:
+    - moderator
+    - g:bukkit_admin
+    - g:essentials_admin
+    - g:towny_admin
+    info:
+      prefix: '&a[&dHub&a]&a &a[Admin]&f'
+      build: true
+      suffix: ''
+  vip:
+    default: false
+    permissions:
+    - group.Vip
+    - group.whitelisted
+    - multiverse.portal.access.spawn-whitelist
+    - Pl.VIP
+    - spleef.start
+    inheritance:
+    - builder++
+    - g:essentials_vip
+    info:
+      prefix: '&a[&dHub&a]&a &d[VIP]&f'
+      build: true
+      suffix: ''
+  Builder+:
+    default: false
+    permissions: []
+    inheritance:
+    - builder
+    - g:essentials_builder+
+    info:
+      prefix: '&a[&dHub&a]&a &2[Builder&d+&a]&f'
+      build: true
+      suffix: ''
+  noob:
+    default: false
+    permissions: []
+    inheritance: []
+    info:
+      prefix: '&a[&dHub&a]&a &8[Guest]&f'
+      build: true
+      suffix: ''
+  Co-Owner:
+    default: false
+    permissions:
+    - -vanish.*
+    - '*'
+    - essentials.*
+    inheritance:
+    - head-admin
+    info:
+      prefix: '&a[&dHub&a]&a &d[Co-Owner]&f'
+      build: true
+      suffix: ''
+  Builder:
+    default: true
+    permissions:
+    - chairs.sit
+    - essentials.back.ondeath
+    - multiverse.portal.access.spawn-creative
+    - multiverse.portal.access.spawn-game
+    - multiverse.portal.access.spawn-hc
+    - multiverse.portal.access.spawn-survival
+    - mywarp.economy.user
+    - spleef.join.1#
+    - spleef.start
+    inheritance:
+    - default
+    - g:essentials_builder
+    - g:towny_builder
+    info:
+      prefix: '&a[&dHub&a]&a &2[Builder]&f'
+      build: true
+      suffix: ''
+  Builder++:
+    default: false
+    permissions:
+    - group.builder++
+    inheritance:
+    - builder+
+    - g:essentials_builder++
+    info:
+      prefix: '&a[&dHub&a]&a &2[Builder&d++&a]&f'
+      build: true
+      suffix: ''
+  VIP+:
+    default: false
+    permissions:
+    - -essentials.fly
+    - group.VIP+
+    inheritance:
+    - vip
+    - g:essentials_vip+
+    info:
+      prefix: '&a[&dHub&a]&a &d[VIP&d+&a]&f'
+      build: true
+      suffix: ''
+  Head-Admin:
+    default: false
+    permissions:
+    - essentials.fly
+    - group.headadmin
+    inheritance:
+    - admin
+    info:
+      prefix: '&a[&dHub&a]&a &d[Head-Admin]&f'
+      build: true
+      suffix: ''
+  Moderator:
+    default: false
+    permissions:
+    - -essentials.fly
+    - group.moderator
+    - lain.group.mod
+    - Pl.Mod
+    inheritance:
+    - vip+
+    - g:bukkit_moderator
+    - g:essentials_moderator
+    - g:towny_moderator
+    info:
+      prefix: '&a[&dHub&a]&a &e[MOD]&f'
+      build: true
+      suffix: ''
