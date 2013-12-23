@@ -10,7 +10,7 @@ settings:
     # ************************************************************************************************************************************************************
     # *** NOTE: Having this feature enabled can allow improper use of Command Blocks which may lead to undesireable permission changes. You have been warned! ***
     # ************************************************************************************************************************************************************
-    allow_commandblocks: true
+    allow_commandblocks: false
     
   data:
     save:
@@ -38,17 +38,10 @@ settings:
           - users
           creative:
           - users
-          world_nether:
-          - users
-          - groups
-          world_the_end:
-          - users
-          - groups
           game:
           - users
           all_unnamed_worlds:
           - users
-          - groups
         survival:
           survival_nether:
           - users
