@@ -12,6 +12,57 @@
 
 groups:
 
+ #######################################
+  g:group_builder
+    permissions:
+    - lain.group.builder
+    - chairs.sit
+    - essentials.back.ondeath
+    - multiverse.portal.access.spawn-creative
+    - multiverse.portal.access.spawn-game
+    - multiverse.portal.access.spawn-hc
+    - multiverse.portal.access.spawn-survival
+    - mywarp.economy.user
+    - spleef.join.1#
+    - spleef.start
+    
+  g:globalgroup_builder+
+    permissions:
+    - lain.group.builder+
+    
+  g:globalgroup_buider++
+    permissions:
+    - lain.group.builder++
+    
+  g:globalgroup_vip
+    permissions:
+    - lain.group.vip
+    
+  g:globalgroup_vip+
+    permissions:
+    - lain.group.vip+
+    
+  g:globalgroup_moderator
+    permissions:
+    - lain.group.moderator
+    
+  g:globalgroup_admin
+    permissions:
+    - lain.group.admin
+    
+  g:globalgroup_headadmin
+    permissions:
+    - lain.group.headadmin
+    
+  g:globalgroup_coowner
+   permissions: 
+   - lain.group.coowner
+   
+  g:globalgroup_owner
+  - lain.group.coowner
+
+ #######################################
+ 
 # Permission nodes for GroupManager
 # by ElgarL, snowleo, continued from gabrielcouto's original
 # http://wiki.ess3.net

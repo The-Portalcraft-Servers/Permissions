@@ -46,7 +46,7 @@ groups:
     - multiverse.portal.access.spawn-whitelist
     inheritance: []
     info:
-      prefix: '&c[Report this error to Owner]&r'
+      prefix: '&c[Report this error to an Owner]&r'
       build: true
       suffix: ''
   Admin:
