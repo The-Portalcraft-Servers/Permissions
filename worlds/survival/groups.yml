@@ -24,7 +24,6 @@ groups:
   Owner:
     default: false
     permissions:
-    - -vanish.*
     - lain.group.owner
     inheritance:
     - admin
@@ -34,10 +33,7 @@ groups:
       suffix: ''
   vip:
     default: false
-    permissions:
-    - group.Vip
-    - multiverse.portal.access.spawn-p
-    - spleef.start
+    permissions: []
     inheritance:
     - builder++
     - g:essentials_vip
@@ -57,9 +53,7 @@ groups:
       suffix: ''
   Co-Owner:
     default: false
-    permissions:
-    - -vanish.*
-    - essentials.*
+    permissions: []
     inheritance:
     - head-admin
     info:
@@ -68,8 +62,7 @@ groups:
       suffix: ''
   Builder++:
     default: false
-    permissions:
-    - group.builder++
+    permissions: []
     inheritance:
     - builder+
     - g:essentials_builder++
@@ -82,9 +75,6 @@ groups:
     permissions:
     - chairs.sit
     - ChestShop.shop.*
-    - multiverse.portal.access.spawn-creative
-    - spleef.join.1
-    - spleef.start
     - towny.wild.destroy.*
     - towny.wild.switch.*
     inheritance:
@@ -97,8 +87,7 @@ groups:
       suffix: ''
   VIP+:
     default: false
-    permissions:
-    - group.VIP+
+    permissions: []
     inheritance:
     - vip
     - g:essentials_vip+
@@ -108,8 +97,7 @@ groups:
       suffix: ''
   Head-Admin:
     default: false
-    permissions:
-    - group.headadmin
+    permissions: []
     inheritance:
     - admin
     info:
@@ -118,9 +106,7 @@ groups:
       suffix: ''
   Moderator:
     default: false
-    permissions:
-    - group.moderator
-    - lain.group.mod
+    permissions: []
     inheritance:
     - vip+
     - g:bukkit_moderator
@@ -132,9 +118,7 @@ groups:
       suffix: ''
   Admin:
     default: false
-    permissions:
-    - group.admin
-    - lain.group.admin
+    permissions: []
     inheritance:
     - moderator
     - g:bukkit_admin
