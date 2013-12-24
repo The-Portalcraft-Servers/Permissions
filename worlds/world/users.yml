@@ -21,9 +21,6 @@ users:
     subgroups: []
     permissions:
     - lain.user.mod
-    - multiverse.netherportals.serv-c
-    - multiverse.netherportals.serv-creative
-    - multiverse.netherportals.serv-p
   carlgo11:
     group: Owner
     subgroups: []
@@ -43,10 +40,6 @@ users:
     subgroups: []
     permissions:
     - lain.user.mod
-  gage446:
-    group: Default
-    subgroups: []
-    permissions: []
   ianfreeman:
     group: Moderator
     subgroups: []
@@ -93,24 +86,6 @@ users:
     subgroups: []
     permissions:
     - lain.user.mod
-    - lain.user.moderator
-  Palstales:
-    group: Default
-    subgroups: []
-    permissions: []
-  psgs:
-    group: Default
-    subgroups: []
-    permissions: []
-  PunkZ3brah:
-    group: Default
-    subgroups: []
-    permissions: []
-  Stubbisxxx:
-    group: Default
-    subgroups:
-    - whitelisted
-    permissions: []
   Zam_2000:
     group: Builder++
     subgroups: []
