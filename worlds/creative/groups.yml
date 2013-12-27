@@ -35,7 +35,7 @@ groups:
     - -plotme.limit.7
     - plotme.limit.15
     inheritance:
-    - default
+    - Builder
     - g:essentials_builder+
     - g:globalgroups_builder+
     info:
@@ -48,7 +48,7 @@ groups:
     - -plotme.limit.15
     - plotme.limit.30
     inheritance:
-    - default
+    - Builder+
     - g:essentials_builder++
     - g:bukkit_default
     - g:globalgroups_builder++
@@ -62,7 +62,7 @@ groups:
     - plotme.limit.70
     - world.edit.*
     inheritance:
-    - default
+    - Builder++
     - g:essentials_vip
     - g:bukkit_default
     - g:globalgroups_vip

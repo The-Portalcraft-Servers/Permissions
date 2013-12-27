@@ -9,26 +9,12 @@
 # Local group inheritances define your promotion tree when using 'manpromote/mandemote'
 
 groups:
-  Default:
-    default: false
-    permissions:
-    - -bukkit.command.kill
-    - banhammer.notify
-    inheritance:
-    - g:groupmanager_default
-    - g:bukkit_default
-    - g:essentials_default
-    - g:towny_default
-    info:
-      prefix: '&e'
-      build: false
-      suffix: ''
   Owner:
     default: false
-    permissions:
-    - '[essentials.nick]'
+    permissions: []
     inheritance:
-    - admin
+    - coowner
+    - g:globalgroup_owner
     info:
       prefix: '&a[&dWhitelist&a]&a &d[Owner]&f'
       build: true
@@ -48,9 +34,9 @@ groups:
     - g:bukkit_default
     - g:essentials_default
     - g:towny_default
-    - default
     - g:essentials_builder
     - g:towny_builder
+    - g:globalgroup_builder
     info:
       prefix: '&a[&dWhitelist&a]&a &2[Builder]&f '
       build: true
@@ -62,6 +48,7 @@ groups:
     inheritance:
     - builder+
     - g:essentials_builder++
+    - g:globalgroup_builder++
     info:
       prefix: '&a[&dWhitelist&a]&a &2[Builder&d++&a]&f'
       build: true
@@ -72,6 +59,7 @@ groups:
     inheritance:
     - builder
     - g:essentials_builder+
+    - g:globalgroup_builder+
     info:
       prefix: '&a[&dWhitelist&a]&a &2[Builder&d+&a]&f'
       build: true
@@ -85,6 +73,7 @@ groups:
     inheritance:
     - builder++
     - g:essentials_vip
+    - g:globalgroup_vip
     info:
       prefix: '&a[&dWhitelist&a]&a &d[VIP]&f'
       build: true
@@ -96,6 +85,7 @@ groups:
     inheritance:
     - vip
     - g:essentials_vip+
+    - g:globalgroup_vip+
     info:
       prefix: '&a[&dWhitelist&a]&a &d[VIP&d+&a]&f'
       build: true
@@ -123,6 +113,7 @@ groups:
     - g:essentials_moderator
     - g:towny_moderator
     - g:vanish_moderator
+    - g:globalgroup_moderator
     info:
       prefix: '&a[&dWhitelist&a]&a &e[Mod]&f '
       build: true
@@ -140,6 +131,7 @@ groups:
     - g:bukkit_admin
     - g:essentials_admin
     - g:towny_admin
+    - g:globalgroup_admin
     info:
       prefix: '&a[&dWhitelist&a]&a &a[Admin]&f '
       build: true
@@ -152,6 +144,7 @@ groups:
     - essentials.*
     inheritance:
     - head-admin
+    - g:globalgroup_coowner
     info:
       prefix: '&a[&dWhitelist&a]&a &d[Co-Owner]&f'
       build: true
@@ -162,6 +155,7 @@ groups:
     - group.headadmin
     inheritance:
     - admin
+    - g:globalgroup_headadmin
     info:
       prefix: '&a[&dWhitelist&a]&a &d[Head-Admin]&f'
       build: true

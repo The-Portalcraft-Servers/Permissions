@@ -75,6 +75,7 @@ groups:
     inheritance:
     - vip
     - g:essentials_vip+
+    - g:globalgroups_vip+
     info:
       prefix: '&a[&dHub&a]&a &d[VIP&d+&a]&f'
       build: true
@@ -88,6 +89,7 @@ groups:
     - g:bukkit_moderator
     - g:essentials_moderator
     - g:towny_moderator
+    - g:globalgroups_moderator
     info:
       prefix: '&a[&dHub&a]&a &e[MOD]&f'
       build: true
@@ -101,7 +103,7 @@ groups:
     - g:bukkit_admin
     - g:essentials_admin
     - g:towny_admin
-    - g;globalgroup_admin
+    - g:globalgroup_admin
     info:
       prefix: '&a[&dHub&a]&a &a[Admin]&f'
       build: true
@@ -131,7 +133,7 @@ groups:
     permissions:
     - '*'
     inheritance:
-    - admin
+    - coowner
     - g:groupmanager_moderator
     - g:groupmanager_admin
     - g:globalgroups_owner
