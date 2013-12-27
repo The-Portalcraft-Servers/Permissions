@@ -123,3 +123,7 @@ groups:
     inheritance:
     - Co-Owner
     - g:globalgroups_owner
+    info:
+      prefix: '&a[&dCreative&a] &d[Owner]&f'
+      build: true
+      suffix: ''

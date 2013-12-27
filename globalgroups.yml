@@ -13,7 +13,8 @@
 groups:
 
  #######################################
-  g:group_builder:
+ 
+  g:globalgroups_builder:
     permissions:
     - lain.group.builder
     - chairs.sit
@@ -26,31 +27,32 @@ groups:
     - spleef.join.1#
     - spleef.start
     - group.builder
-  g:globalgroup_builder+:
+
+  g:globalgroups_builder+:
     permissions:
     - lain.group.builder+
     - group.builder+
-    
-  g:globalgroup_buider++:
+
+  g:globalgroups_builder++:
     permissions:
     - lain.group.builder++
     - group.builder++
-    
-  g:globalgroup_vip:
+
+  g:globalgroups_vip:
     permissions:
     - lain.group.vip
     - essentials.fly
     - group.Vip
     - essentials.hat
     - essentials.tp
-    
-  g:globalgroup_vip+:
+
+  g:globalgroups_vip+:
     permissions:
     - lain.group.vip+
     - lain.tag
     - group.vip+
-    
-  g:globalgroup_moderator:
+
+  g:globalgroups_moderator:
     permissions:
     - lain.group.moderator
     - lain.cmd.delalias
@@ -59,8 +61,8 @@ groups:
     - lain.cmd.delcmd
     - lain.group.owner
     - group.moderator
-    
-  g:globalgroup_admin:
+
+  g:globalgroups_admin:
     permissions:
     - lain.group.admin
     - group.admin
@@ -69,24 +71,25 @@ groups:
     - prism.lookup
     - prism.tp
     - prism.wand.*
-    
-  g:globalgroup_headadmin:
+
+  g:globalgroups_headadmin:
     permissions:
     - lain.group.headadmin
     - group.headadmin
-    
-  g:globalgroup_coowner:
+
+  g:globalgroups_coowner:
    permissions: 
    - lain.group.coowner
    - group.coowner
    - essentials.*
-   
-  g:globalgroup_owner:
-  - lain.group.coowner
-  - group.owner
-  - groupmanager.mangaddp
-  - groupmanager.manuaddp
-  
+
+  g:globalgroups_owner:
+    permissions:
+    - lain.group.owner
+    - group.owner
+    - groupmanager.mangaddp
+    - groupmanager.manuaddp
+
  #######################################
  
 # Permission nodes for GroupManager

@@ -121,7 +121,7 @@ groups:
     default: false
     permissions: []
     inheritance:
-    - coowner
+    - co-owner
     - g:globalgroups_owner
     info:
       prefix: '&a[&dSurvival&a]&a &d[Owner]&f'

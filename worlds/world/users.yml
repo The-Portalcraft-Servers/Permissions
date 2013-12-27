@@ -27,14 +27,6 @@ users:
     permissions:
     - lain.user.op
     - lain.user.owner
-  carlth2003:
-    group: Default
-    subgroups: []
-    permissions: []
-  charlie835:
-    group: Default
-    subgroups: []
-    permissions: []
   flamehawk33:
     group: Moderator
     subgroups: []
@@ -55,20 +47,12 @@ users:
     permissions:
     - lain.user.co-owner
     - lain.user.op
-  kickassjacob:
-    group: Default
-    subgroups: []
-    permissions: []
   mixis221:
     group: Moderator
     subgroups:
     - whitelisted
     permissions:
     - lain.user.mod
-  oand:
-    group: Default
-    subgroups: []
-    permissions: []
   olback:
     group: Owner
     subgroups:
@@ -82,7 +66,7 @@ users:
     - whitelisted
     permissions: []
   Pahlos:
-    group: Default
+    group: Builder
     subgroups: []
     permissions:
     - lain.user.mod

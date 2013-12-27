@@ -28,7 +28,7 @@ groups:
     - g:essentials_default
     - g:essentials_builder
     - g:towny_builder
-    - g:globalgroup_builder
+    - g:globalgroups_builder
     info:
       prefix: '&a[&dHub&a]&a &2[Builder]&f'
       build: true
@@ -39,7 +39,7 @@ groups:
     inheritance:
     - builder
     - g:essentials_builder+
-    - g:globalgroup_builder+
+    - g:globalgroups_builder+
     info:
       prefix: '&a[&dHub&a]&a &2[Builder&d+&a]&f'
       build: true
@@ -62,7 +62,7 @@ groups:
     inheritance:
     - builder++
     - g:essentials_vip
-    - g:globalgroup_vip
+    - g:globalgroups_vip
     info:
       prefix: '&a[&dHub&a]&a &d[VIP]&f'
       build: true
@@ -103,7 +103,7 @@ groups:
     - g:bukkit_admin
     - g:essentials_admin
     - g:towny_admin
-    - g:globalgroup_admin
+    - g:globalgroups_admin
     info:
       prefix: '&a[&dHub&a]&a &a[Admin]&f'
       build: true
@@ -123,7 +123,7 @@ groups:
     permissions: []
     inheritance:
     - head-admin
-    - g:globalgroup_coowner
+    - g:globalgroups_coowner
     info:
       prefix: '&a[&dHub&a]&a &d[Co-Owner]&f'
       build: true
@@ -133,7 +133,7 @@ groups:
     permissions:
     - '*'
     inheritance:
-    - coowner
+    - co-owner
     - g:groupmanager_moderator
     - g:groupmanager_admin
     - g:globalgroups_owner
