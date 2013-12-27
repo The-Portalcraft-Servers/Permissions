@@ -25,42 +25,60 @@ groups:
     - mywarp.economy.user
     - spleef.join.1#
     - spleef.start
+    - group.builder
     
   g:globalgroup_builder+
     permissions:
     - lain.group.builder+
+    - group.builder+
     
   g:globalgroup_buider++
     permissions:
     - lain.group.builder++
+    - group.builder++
     
   g:globalgroup_vip
     permissions:
     - lain.group.vip
+    - essentials.fly
+    - group.Vip
     
   g:globalgroup_vip+
     permissions:
     - lain.group.vip+
-    
+    - lain.tag
+    - group.vip+
   g:globalgroup_moderator
     permissions:
     - lain.group.moderator
+    - lain.cmd.delalias
+    - lain.cmd.setalias
+    - lain.cmd.setcmd
+    - lain.cmd.delcmd
+    - lain.group.owner
+    - group.moderator
     
   g:globalgroup_admin
     permissions:
     - lain.group.admin
+    - group.admin
     
   g:globalgroup_headadmin
     permissions:
     - lain.group.headadmin
+    - group.headadmin
     
   g:globalgroup_coowner
    permissions: 
    - lain.group.coowner
-   
+   - group.coowner
+   - essentials.*
   g:globalgroup_owner
   - lain.group.coowner
-
+  - group.owner
+  - groupmanager.mangaddp
+  - groupmanager.manuaddp
+  
  #######################################
  
 # Permission nodes for GroupManager
