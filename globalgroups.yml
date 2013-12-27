@@ -13,7 +13,7 @@
 groups:
 
  #######################################
-  g:group_builder
+  g:group_builder:
     permissions:
     - lain.group.builder
     - chairs.sit
@@ -26,18 +26,17 @@ groups:
     - spleef.join.1#
     - spleef.start
     - group.builder
-    
-  g:globalgroup_builder+
+  g:globalgroup_builder+:
     permissions:
     - lain.group.builder+
     - group.builder+
     
-  g:globalgroup_buider++
+  g:globalgroup_buider++:
     permissions:
     - lain.group.builder++
     - group.builder++
     
-  g:globalgroup_vip
+  g:globalgroup_vip:
     permissions:
     - lain.group.vip
     - essentials.fly
@@ -45,12 +44,13 @@ groups:
     - essentials.hat
     - essentials.tp
     
-  g:globalgroup_vip+
+  g:globalgroup_vip+:
     permissions:
     - lain.group.vip+
     - lain.tag
     - group.vip+
-  g:globalgroup_moderator
+    
+  g:globalgroup_moderator:
     permissions:
     - lain.group.moderator
     - lain.cmd.delalias
@@ -60,7 +60,7 @@ groups:
     - lain.group.owner
     - group.moderator
     
-  g:globalgroup_admin
+  g:globalgroup_admin:
     permissions:
     - lain.group.admin
     - group.admin
@@ -69,17 +69,19 @@ groups:
     - prism.lookup
     - prism.tp
     - prism.wand.*
-  g:globalgroup_headadmin
+    
+  g:globalgroup_headadmin:
     permissions:
     - lain.group.headadmin
     - group.headadmin
     
-  g:globalgroup_coowner
+  g:globalgroup_coowner:
    permissions: 
    - lain.group.coowner
    - group.coowner
    - essentials.*
-  g:globalgroup_owner
+   
+  g:globalgroup_owner:
   - lain.group.coowner
   - group.owner
   - groupmanager.mangaddp
