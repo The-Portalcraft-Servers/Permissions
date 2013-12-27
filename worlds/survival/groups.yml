@@ -15,6 +15,7 @@ groups:
     - ChestShop.shop.*
     - towny.wild.destroy.*
     - towny.wild.switch.*
+    - towny.command.town.*
     inheritance:
     - g:essentials_builder
     - g:towny_builder

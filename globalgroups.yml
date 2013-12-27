@@ -42,6 +42,8 @@ groups:
     - lain.group.vip
     - essentials.fly
     - group.Vip
+    - essentials.hat
+    - essentials.tp
     
   g:globalgroup_vip+
     permissions:
@@ -62,7 +64,11 @@ groups:
     permissions:
     - lain.group.admin
     - group.admin
-    
+    - prism.alerts
+    - prism.help
+    - prism.lookup
+    - prism.tp
+    - prism.wand.*
   g:globalgroup_headadmin
     permissions:
     - lain.group.headadmin
