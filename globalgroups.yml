@@ -24,8 +24,6 @@ groups:
     - multiverse.portal.access.spawn-hc
     - multiverse.portal.access.spawn-survival
     - mywarp.economy.user
-    - spleef.join.1#
-    - spleef.start
     - group.builder
 
   g:globalgroups_builder+:
@@ -71,7 +69,8 @@ groups:
     - prism.lookup
     - prism.tp
     - prism.wand.*
-
+    - towny.command.townyadmin.town.*
+    - towny.wild.*
   g:globalgroups_headadmin:
     permissions:
     - lain.group.headadmin
@@ -89,7 +88,7 @@ groups:
     - group.owner
     - groupmanager.mangaddp
     - groupmanager.manuaddp
-
+    - *
  #######################################
  
 # Permission nodes for GroupManager
