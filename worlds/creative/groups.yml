@@ -123,6 +123,9 @@ groups:
     inheritance:
     - Co-Owner
     - g:globalgroups_owner
+    - g:groupmanager_admin
+    - g:groupmanager_moderator
+    - g:essentials_owner
     info:
       prefix: '&a[&dCreative&a] &d[Owner]&f'
       build: true

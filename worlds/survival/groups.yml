@@ -122,6 +122,8 @@ groups:
     permissions: []
     inheritance:
     - co-owner
+    - g:groupmanager_moderator
+    - g:groupmanager_admin
     - g:globalgroups_owner
     info:
       prefix: '&a[&dSurvival&a]&a &d[Owner]&f'

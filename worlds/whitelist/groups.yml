@@ -14,6 +14,8 @@ groups:
     permissions: []
     inheritance:
     - co-owner
+    - g:groupmanager_moderator
+    - g:groupmanager_admin
     - g:globalgroups_owner
     info:
       prefix: '&a[&dWhitelist&a]&a &d[Owner]&f'
