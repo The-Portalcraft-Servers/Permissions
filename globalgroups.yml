@@ -25,7 +25,10 @@ groups:
     - multiverse.portal.access.spawn-survival
     - mywarp.economy.user
     - group.builder
-
+    - simpleAutoMessage.seemsg
+    - simpleAutoMessage.simpleautomessage
+    - simpleAutoMessage.simpleautomessage.list
+    
   g:globalgroups_builder+:
     permissions:
     - lain.group.builder+
@@ -71,11 +74,14 @@ groups:
     - prism.wand.*
     - towny.command.townyadmin.town.*
     - towny.wild.*
+    - simpleAutoMessage.simpleautomessage.reload
+    
   g:globalgroups_headadmin:
     permissions:
     - lain.group.headadmin
     - group.headadmin
-
+    - simpleAutoMessage.simpleautomessage.update
+    
   g:globalgroups_coowner:
    permissions: 
    - lain.group.coowner
@@ -252,12 +258,10 @@ groups:
     - essentials.tpa
   g:essentials_builder+:
     permissions:
-    - Pl.Builder+
     - mywarp.warp.basic.*
     - essentials.seen
   g:essentials_builder++:
     permissions:
-    - Pl.Builder++
     - mywarp.warp.soc.invite
     - mywarp.warp.soc.uninvite
     
@@ -265,8 +269,6 @@ groups:
   g:essentials_vip:
     permissions:
     - commandbouncer.listen.cmd1
-    - Lain.tagapi.rank.VIP
-    - Pl.VIP
     - mywarp.warp.soc.*
     - mywarp.admin.accessall
     - essentials.nick
@@ -297,17 +299,10 @@ groups:
     - essentials.god
   g:essentials_moderator:
     permissions:
-    - lain.chat.cmd
-    - lain.chat.cmd.new
-    - lain.chat.cmd.modify
-    - lain.chat.cmd.alias
     - prism.extinguish
     - prism.help
     - prism.lookup
     - prism.tp
-    - Pl.Mod
-    - -Lain.tagapi.rank.VIP
-    - Lain.tagapi.rank.Moderator
     - -essentials.spawner.enderdragon
     - essentials.ban
     - essentials.ban.notify
@@ -372,11 +367,8 @@ groups:
     - prism.preview
     - prism.restore
     - prism.lookup.paginate
-    - Pl.Admin
-    - -Lain.tagapi.rank.Moderator
-    - Lain.tagapi.rank.Admin
     - -essentials.backup
-    - -essentials.essentials
+    - essentials.essentials
     - -essentials.setspawn
     - -essentials.reloadall
     - -essentials.plugin
@@ -384,11 +376,8 @@ groups:
 
   g:essentials_owner:
     permissions:
-    - Pl.Admin
-    - -Lain.tagapi.rank.Moderator
-    - Lain.tagapi.rank.Admin
     - -essentials.backup
-    - -essentials.essentials
+    - essentials.essentials
     - -essentials.setspawn
     - -essentials.reloadall
     - -essentials.plugin
