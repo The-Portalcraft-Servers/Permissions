@@ -25,10 +25,6 @@ groups:
       prefix: '&a[&dCreative&a] &2[Builder]&f'
       build: true
       suffix: ''
-    info:
-      prefix: '&a[&dCreative&a] &d[Owner]&f'
-      build: true
-      suffix: ''
   Builder+:
     default: false
     permissions:
@@ -39,7 +35,7 @@ groups:
     - g:essentials_builder+
     - g:globalgroups_builder+
     info:
-      prefix: '&a[Builder&d+&a]&f'
+      prefix: '&a[&dCreative&a] &a[Builder&d+&a]&f'
       build: true
       suffix: ''
   Builder++:
