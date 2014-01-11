@@ -4,11 +4,47 @@ users:
     subgroups: []
     permissions:
     - lain.user.mod
+  23090kingen:
+    group: Builder
+    subgroups: []
+    permissions: []
+  2pacboy4life:
+    group: Builder
+    subgroups: []
+    permissions: []
+  30noll:
+    group: Builder
+    subgroups: []
+    permissions: []
+  321odne:
+    group: Builder
+    subgroups: []
+    permissions: []
+  3beckminers:
+    group: Builder
+    subgroups: []
+    permissions: []
   8404Heather:
     group: Moderator
     subgroups: []
     permissions:
     - lain.user.mod
+  AAArvIIId:
+    group: Builder
+    subgroups: []
+    permissions: []
+  abbcraft04:
+    group: Builder
+    subgroups: []
+    permissions: []
+  alvefw:
+    group: Builder
+    subgroups: []
+    permissions: []
+  andreas_bergase:
+    group: Builder
+    subgroups: []
+    permissions: []
   anminecrafter:
     group: Moderator
     subgroups: []
@@ -16,22 +52,113 @@ users:
     - lain.user.admin
     - lain.user.mod
     - lain.user.op
+  annoyingorange8:
+    group: Builder
+    subgroups: []
+    permissions: []
+  antepro03:
+    group: Builder
+    subgroups: []
+    permissions: []
+  awesomeboz03:
+    group: Builder
+    subgroups: []
+    permissions: []
+  Axel_Ahlin1:
+    group: Builder
+    subgroups: []
+    permissions: []
+  Ben0528:
+    group: Builder
+    subgroups: []
+    permissions: []
+  ben607076:
+    group: Builder
+    subgroups: []
+    permissions: []
+  Bjorn1966:
+    group: Builder
+    subgroups: []
+    permissions: []
+  bluefletch:
+    group: Builder+
+    subgroups: []
+    permissions: []
   cabbex:
     group: Moderator
     subgroups: []
     permissions:
     - lain.user.mod
+  carl_westerholm:
+    group: Builder+
+    subgroups:
+    - whitelisted
+    permissions: []
   carlgo11:
     group: Owner
     subgroups: []
     permissions:
     - lain.user.op
     - lain.user.owner
+  carlth2003:
+    group: Builder
+    subgroups:
+    - whitelisted
+    permissions: []
+  Cathal02:
+    group: Builder
+    subgroups: []
+    permissions: []
+  cheesepops779:
+    group: Builder
+    subgroups: []
+    permissions: []
+  creeperslayer595:
+    group: Builder
+    subgroups: []
+    permissions: []
+  DEMPAN5000:
+    group: Builder
+    subgroups: []
+    permissions: []
+  DerpytheKnight:
+    group: Builder
+    subgroups: []
+    permissions: []
+  enter97:
+    group: Builder
+    subgroups: []
+    permissions: []
+  extome:
+    group: Builder
+    subgroups: []
+    permissions: []
   flamehawk33:
     group: Moderator
     subgroups: []
     permissions:
     - lain.user.mod
+  fotboll_felix:
+    group: Builder
+    subgroups: []
+    permissions: []
+  gage446:
+    group: Builder
+    subgroups: []
+    permissions: []
+  Gus28832:
+    group: Builder
+    subgroups: []
+    permissions: []
+  Hhaannnnaa:
+    group: Builder
+    subgroups: []
+    permissions: []
+  hula2003:
+    group: Builder
+    subgroups:
+    - whitelisted
+    permissions: []
   ianfreeman:
     group: Moderator
     subgroups: []
@@ -41,40 +168,251 @@ users:
     group: VIP+
     subgroups: []
     permissions: []
-  jonkanon03:
-    group: Co-Owner
+  Jonas2004:
+    group: Builder
     subgroups: []
+    permissions: []
+  jonkanon03:
+    group: Admin
+    subgroups:
+    - whitelisted
     permissions:
-    - lain.user.co-owner
+    - lain.user.admin
     - lain.user.op
+  justmine3:
+    group: Builder
+    subgroups: []
+    permissions: []
+  kai_the_epic_guy:
+    group: Builder
+    subgroups: []
+    permissions: []
+  kajsa123kajsa:
+    group: Builder
+    subgroups: []
+    permissions: []
+  Kniven055:
+    group: Builder
+    subgroups: []
+    permissions: []
+  legoninj5000:
+    group: Builder
+    subgroups: []
+    permissions: []
+  lex123lex:
+    group: Builder
+    subgroups: []
+    permissions: []
+  Linco00:
+    group: Builder
+    subgroups: []
+    permissions: []
+  linlin03:
+    group: Builder
+    subgroups: []
+    permissions: []
+  linman02:
+    group: Builder
+    subgroups: []
+    permissions: []
+  linos10203:
+    group: Builder
+    subgroups: []
+    permissions: []
+  Liopleurodon1234:
+    group: Builder
+    subgroups: []
+    permissions: []
+  Ltwcool:
+    group: Builder
+    subgroups: []
+    permissions: []
+  lukaslarsson03:
+    group: Builder
+    subgroups: []
+    permissions: []
+  malmren:
+    group: Builder
+    subgroups: []
+    permissions: []
+  mario6874:
+    group: VIP
+    subgroups: []
+    permissions: []
+  mattcraft02:
+    group: Builder
+    subgroups: []
+    permissions: []
+  maxblack908:
+    group: Builder
+    subgroups: []
+    permissions: []
+  mcgirl1114:
+    group: Builder
+    subgroups: []
+    permissions: []
+  Melle_ka:
+    group: Builder
+    subgroups: []
+    permissions: []
   mixis221:
     group: Moderator
     subgroups:
     - whitelisted
     permissions:
     - lain.user.mod
+  Mollykatt27:
+    group: Builder
+    subgroups:
+    - whitelisted
+    permissions: []
+  mrc222:
+    group: Builder
+    subgroups: []
+    permissions: []
+  mrpartyman:
+    group: Builder
+    subgroups: []
+    permissions: []
+  oand:
+    group: Builder
+    subgroups: []
+    permissions: []
+  OF1234:
+    group: Builder
+    subgroups:
+    - whitelisted
+    permissions: []
   olback:
     group: Owner
     subgroups:
     - whitelisted
     permissions:
+    - builder
     - lain.user.owner
+    - owner
     - prism.view
   olburk:
     group: Builder++
     subgroups:
     - whitelisted
     permissions: []
-  Pahlos:
+  Oskar_Wutzler:
     group: Builder
+    subgroups: []
+    permissions: []
+  Pahlos:
+    group: Moderator
     subgroups: []
     permissions:
     - lain.user.mod
+  Palstales:
+    group: Builder
+    subgroups: []
+    permissions: []
+  pinky1244:
+    group: Builder
+    subgroups: []
+    permissions: []
+  ponte44:
+    group: Builder
+    subgroups: []
+    permissions: []
+  PropellerElla:
+    group: Builder
+    subgroups: []
+    permissions: []
+  Rasgun:
+    group: Builder
+    subgroups: []
+    permissions: []
+  Reasay_craft:
+    group: Builder
+    subgroups: []
+    permissions: []
+  sagip9:
+    group: Builder
+    subgroups: []
+    permissions: []
+  ScoobyDoo87:
+    group: Builder
+    subgroups: []
+    permissions: []
+  sevasaurus:
+    group: Builder
+    subgroups: []
+    permissions: []
+  SiiooL:
+    group: Builder
+    subgroups:
+    - whitelisted
+    permissions: []
+  Simoon02:
+    group: Builder
+    subgroups: []
+    permissions: []
+  SkiprOHaXiZ:
+    group: Builder
+    subgroups: []
+    permissions: []
+  smurfen111:
+    group: Builder
+    subgroups: []
+    permissions: []
+  snaps10:
+    group: Builder
+    subgroups: []
+    permissions: []
+  Stubbisxxx:
+    group: Builder
+    subgroups: []
+    permissions: []
+  the_rubber_boot:
+    group: Builder
+    subgroups: []
+    permissions: []
+  tjapparedo:
+    group: Builder
+    subgroups: []
+    permissions: []
+  ttobbe123:
+    group: Builder
+    subgroups: []
+    permissions: []
+  Umabird:
+    group: Builder
+    subgroups: []
+    permissions: []
+  valentinfw:
+    group: Builder
+    subgroups: []
+    permissions: []
+  Vintervind:
+    group: Builder
+    subgroups: []
+    permissions: []
+  virkaren:
+    group: Builder
+    subgroups: []
+    permissions: []
+  x10cool:
+    group: Builder
+    subgroups:
+    - whitelisted
+    permissions: []
+  xWolfAshesx:
+    group: Builder
+    subgroups: []
+    permissions: []
   Zam_2000:
     group: Builder++
     subgroups: []
     permissions: []
   zyxep:
-    group: Vip
+    group: VIP
+    subgroups: []
+    permissions: []
+  zZBlueCoconutZz:
+    group: Builder
     subgroups: []
     permissions: []
