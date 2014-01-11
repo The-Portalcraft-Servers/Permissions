@@ -86,6 +86,7 @@ groups:
     - -essentials.fly
     inheritance:
     - vip+
+    - whitelisted
     - g:bukkit_moderator
     - g:essentials_moderator
     - g:towny_moderator
