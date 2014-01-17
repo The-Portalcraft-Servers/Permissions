@@ -60,12 +60,13 @@ groups:
     - lain.cmd.setalias
     - lain.cmd.setcmd
     - lain.cmd.delcmd
-    - lain.group.owner
+    - lain.cmd.lain.broadcast
     - group.moderator
 
   g:globalgroups_admin:
     permissions:
     - lain.group.admin
+    - lain.cmd.lain.say
     - group.admin
     - prism.alerts
     - prism.help
