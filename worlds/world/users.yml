@@ -9,17 +9,11 @@ users:
     subgroups: []
     permissions:
     - lain.user.mod
-  anminecrafter:
-    group: Moderator
+  bluefletch:
+    group: Builder++
     subgroups: []
     permissions:
-    - lain.user.admin
-    - lain.user.mod
-    - lain.user.op
-  bluefletch:
-    group: Builder+
-    subgroups: []
-    permissions: []
+    - builder++
   cabbex:
     group: Moderator
     subgroups: []
@@ -56,14 +50,9 @@ users:
     subgroups: []
     permissions:
     - lain.user.mod
-  jacke0910:
-    group: VIP+
-    subgroups: []
-    permissions: []
   jonkanon03:
     group: Admin
-    subgroups:
-    - whitelisted
+    subgroups: []
     permissions:
     - lain.user.admin
     - lain.user.op
@@ -77,7 +66,7 @@ users:
     permissions:
     - lain.user.mod
   Mollykatt27:
-    group: Builder
+    group: VIP
     subgroups:
     - whitelisted
     permissions: []
@@ -92,6 +81,7 @@ users:
     - whitelisted
     permissions:
     - builder
+    - lain.user.op
     - lain.user.owner
     - owner
     - prism.view
@@ -111,10 +101,11 @@ users:
     - whitelisted
     permissions: []
   x10cool:
-    group: Builder
+    group: Moderator
     subgroups:
     - whitelisted
-    permissions: []
+    permissions:
+    - lain.user.mod
   Zam_2000:
     group: Builder++
     subgroups: []

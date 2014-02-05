@@ -67,6 +67,9 @@ groups:
     - anticheat.system.xray
     - anticheat.system.calibrate
     - group.moderator
+    - mcbans.kick
+    - mcbans.ban.temp
+    - mcbans.lookup
 
   g:globalgroups_admin:
     permissions:
@@ -83,6 +86,8 @@ groups:
     - simpleAutoMessage.simpleautomessage.reload
     - anticheat.system.alert
     - anticheat.system.spy
+    - mcbans.unban
+    - mcbans.ban.local
     
   g:globalgroups_headadmin:
     permissions:
@@ -92,6 +97,7 @@ groups:
     - anticheat.system.reset
     - anticheat.system.log
     - lain.dcmd.demote
+    - mcbans.ban.global
     
   g:globalgroups_coowner:
    permissions: 
