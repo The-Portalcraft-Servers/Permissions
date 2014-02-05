@@ -61,6 +61,11 @@ groups:
     - lain.cmd.setcmd
     - lain.cmd.delcmd
     - lain.cmd.lain.broadcast
+    - anticheat.system.notice
+    - anticheat.system.help
+    - anticheat.system.report
+    - anticheat.system.xray
+    - anticheat.system.calibrate
     - group.moderator
 
   g:globalgroups_admin:
@@ -76,12 +81,17 @@ groups:
     - towny.command.townyadmin.town.*
     - towny.wild.*
     - simpleAutoMessage.simpleautomessage.reload
+    - anticheat.system.alert
+    - anticheat.system.spy
     
   g:globalgroups_headadmin:
     permissions:
     - lain.group.headadmin
     - group.headadmin
     - simpleAutoMessage.simpleautomessage.update
+    - anticheat.system.reset
+    - anticheat.system.log
+    - lain.dcmd.demote
     
   g:globalgroups_coowner:
    permissions: 
