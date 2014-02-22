@@ -69,6 +69,7 @@ groups:
     - mcbans.kick
     - mcbans.ban.temp
     - mcbans.lookup
+    - lain.tempban
 
   g:globalgroups_admin:
     permissions:
