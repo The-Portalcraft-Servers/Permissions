@@ -17,17 +17,18 @@ groups:
   g:globalgroups_builder:
     permissions:
     - lain.group.builder
-    - chairs.sit
+    - group.builder
     - essentials.back.ondeath
     - multiverse.portal.access.spawn-creative
     - multiverse.portal.access.spawn-game
     - multiverse.portal.access.spawn-hc
     - multiverse.portal.access.spawn-survival
     - mywarp.economy.user
-    - group.builder
     - simpleAutoMessage.seemsg
     - simpleAutoMessage.simpleautomessage
     - simpleAutoMessage.simpleautomessage.list
+    - commandbouncer.cmd.commandbouncer.list
+    - commandbouncer.cmd.commandbouncer.about
     
   g:globalgroups_builder+:
     permissions:
@@ -50,23 +51,21 @@ groups:
   g:globalgroups_vip+:
     permissions:
     - lain.group.vip+
-    - lain.tag
     - group.vip+
+    - lain.tag
+    - lain.tag.other
 
   g:globalgroups_moderator:
     permissions:
-    - lain.group.moderator
+    - lain.group.mod
+    - group.moderator
+    - mcbans.ban.temp
+    - mcbans.ban.local
     - lain.cmd.delalias
     - lain.cmd.setalias
     - lain.cmd.setcmd
     - lain.cmd.delcmd
     - lain.cmd.lain.broadcast
-    - anticheat.system.notice
-    - anticheat.system.help
-    - anticheat.system.report
-    - anticheat.system.xray
-    - anticheat.system.calibrate
-    - group.moderator
     - mcbans.kick
     - mcbans.ban.temp
     - mcbans.lookup
@@ -74,8 +73,8 @@ groups:
   g:globalgroups_admin:
     permissions:
     - lain.group.admin
-    - lain.cmd.lain.say
     - group.admin
+    - lain.cmd.lain.say
     - prism.alerts
     - prism.help
     - prism.lookup
@@ -84,8 +83,6 @@ groups:
     - towny.command.townyadmin.town.*
     - towny.wild.*
     - simpleAutoMessage.simpleautomessage.reload
-    - anticheat.system.alert
-    - anticheat.system.spy
     - mcbans.unban
     - mcbans.ban.local
     
@@ -94,10 +91,6 @@ groups:
     - lain.group.headadmin
     - group.headadmin
     - simpleAutoMessage.simpleautomessage.update
-    - anticheat.system.reset
-    - anticheat.system.log
-    - lain.dcmd.demote
-    - mcbans.ban.global
     
   g:globalgroups_coowner:
    permissions: 
@@ -113,8 +106,8 @@ groups:
     - groupmanager.manuaddp
     - '*'
  #######################################
- 
-# Permission nodes for GroupManager
+
+ # Permission nodes for GroupManager
 # by ElgarL, snowleo, continued from gabrielcouto's original
 # http://wiki.ess3.net
 

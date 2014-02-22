@@ -9,6 +9,31 @@
 # Local group inheritances define your promotion tree when using 'manpromote/mandemote'
 
 groups:
+  VIP:
+    default: false
+    permissions:
+    - -essentials.fly
+    inheritance:
+    - builder++
+    - g:essentials_vip
+    - g:globalgroups_vip
+    info:
+      prefix: '&a[&dHub&a]&a &d[VIP]&f'
+      build: true
+      suffix: ''
+  Owner:
+    default: false
+    permissions:
+    - '*'
+    inheritance:
+    - co-owner
+    - g:groupmanager_moderator
+    - g:groupmanager_admin
+    - g:globalgroups_owner
+    info:
+      prefix: '&a[&dHub&a]&a &d[Owner]&f'
+      build: true
+      suffix: ''
   whitelisted:
     default: false
     permissions:
@@ -17,6 +42,38 @@ groups:
     inheritance: []
     info:
       prefix: '&c[Report this error to an Owner]&r'
+      build: true
+      suffix: ''
+  Builder+:
+    default: false
+    permissions: []
+    inheritance:
+    - builder
+    - g:essentials_builder+
+    - g:globalgroups_builder+
+    info:
+      prefix: '&a[&dHub&a]&a &2[Builder&d+&a]&f'
+      build: true
+      suffix: ''
+  Co-Owner:
+    default: false
+    permissions: []
+    inheritance:
+    - head-admin
+    - g:globalgroups_coowner
+    info:
+      prefix: '&a[&dHub&a]&a &d[Co-Owner]&f'
+      build: true
+      suffix: ''
+  Builder++:
+    default: false
+    permissions: []
+    inheritance:
+    - builder+
+    - g:essentials_builder++
+    - g:globalgroups_builder++
+    info:
+      prefix: '&a[&dHub&a]&a &2[Builder&d++&a]&f'
       build: true
       suffix: ''
   Builder:
@@ -33,41 +90,6 @@ groups:
       prefix: '&a[&dHub&a]&a &2[Builder]&f'
       build: true
       suffix: ''
-  Builder+:
-    default: false
-    permissions: []
-    inheritance:
-    - builder
-    - g:essentials_builder+
-    - g:globalgroups_builder+
-    info:
-      prefix: '&a[&dHub&a]&a &2[Builder&d+&a]&f'
-      build: true
-      suffix: ''
-  Builder++:
-    default: false
-    permissions: []
-    inheritance:
-    - builder+
-    - g:essentials_builder++
-    - g:globalgroups_builder++
-    info:
-      prefix: '&a[&dHub&a]&a &2[Builder&d++&a]&f'
-      build: true
-      suffix: ''
-  VIP:
-    default: false
-    permissions:
-    - -essentials.fly
-    inheritance:
-    - builder++
-    - g:essentials_vip
-    - g:globalgroups_vip
-    info:
-      prefix: '&a[&dHub&a]&a &d[VIP]&f'
-      build: true
-      suffix: ''
-
   VIP+:
     default: false
     permissions:
@@ -78,6 +100,16 @@ groups:
     - g:globalgroups_vip+
     info:
       prefix: '&a[&dHub&a]&a &d[VIP&d+&a]&f'
+      build: true
+      suffix: ''
+  Head-Admin:
+    default: false
+    permissions: []
+    inheritance:
+    - admin
+    - g:globalgroups_headadmin
+    info:
+      prefix: '&a[&dHub&a]&a &d[Head-Admin]&f'
       build: true
       suffix: ''
   Moderator:
@@ -107,38 +139,5 @@ groups:
     - g:globalgroups_admin
     info:
       prefix: '&a[&dHub&a]&a &a[Admin]&f'
-      build: true
-      suffix: ''
-  Head-Admin:
-    default: false
-    permissions: []
-    inheritance:
-    - admin
-    - g:globalgroups_headadmin
-    info:
-      prefix: '&a[&dHub&a]&a &d[Head-Admin]&f'
-      build: true
-      suffix: ''
-  Co-Owner:
-    default: false
-    permissions: []
-    inheritance:
-    - head-admin
-    - g:globalgroups_coowner
-    info:
-      prefix: '&a[&dHub&a]&a &d[Co-Owner]&f'
-      build: true
-      suffix: ''
-  Owner:
-    default: false
-    permissions:
-    - '*'
-    inheritance:
-    - co-owner
-    - g:groupmanager_moderator
-    - g:groupmanager_admin
-    - g:globalgroups_owner
-    info:
-      prefix: '&a[&dHub&a]&a &d[Owner]&f'
       build: true
       suffix: ''

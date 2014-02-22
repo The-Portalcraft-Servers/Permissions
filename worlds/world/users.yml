@@ -1,10 +1,5 @@
 users:
-  101sierra101:
-    group: Moderator
-    subgroups: []
-    permissions:
-    - lain.user.mod
-  8404Heather:
+  anminecrafter:
     group: Moderator
     subgroups: []
     permissions:
@@ -14,11 +9,6 @@ users:
     subgroups: []
     permissions:
     - builder++
-  cabbex:
-    group: Moderator
-    subgroups: []
-    permissions:
-    - lain.user.mod
   carl_westerholm:
     group: Builder+
     subgroups:
@@ -35,6 +25,17 @@ users:
     subgroups:
     - whitelisted
     permissions: []
+  darkness108:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - lain.user.mod
+  FaultyPants:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - lain.user.mod
+    - towny.town.*
   flamehawk33:
     group: Moderator
     subgroups: []
@@ -46,25 +47,15 @@ users:
     - whitelisted
     permissions: []
   ianfreeman:
-    group: Moderator
-    subgroups: []
-    permissions:
-    - lain.user.mod
-  jonkanon03:
     group: Admin
     subgroups: []
     permissions:
     - lain.user.admin
-    - lain.user.op
-    - essentials.teleport.cooldown.bypass
-    - essentials.teleport.timer.bypass
-    - -essentials.ban
-  mixis221:
-    group: Moderator
-    subgroups:
-    - whitelisted
+  jonkanon03:
+    group: Builder
+    subgroups: []
     permissions:
-    - lain.user.mod
+    - lain.user.admin
   Mollykatt27:
     group: VIP
     subgroups:
@@ -80,21 +71,13 @@ users:
     subgroups:
     - whitelisted
     permissions:
-    - builder
     - lain.user.op
     - lain.user.owner
-    - owner
-    - prism.view
   olburk:
     group: Builder++
     subgroups:
     - whitelisted
     permissions: []
-  Pahlos:
-    group: Moderator
-    subgroups: []
-    permissions:
-    - lain.user.mod
   SiiooL:
     group: Builder
     subgroups:
@@ -108,9 +91,5 @@ users:
     - lain.user.mod
   Zam_2000:
     group: Builder++
-    subgroups: []
-    permissions: []
-  zyxep:
-    group: VIP
     subgroups: []
     permissions: []
