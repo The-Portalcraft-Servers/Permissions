@@ -103,6 +103,16 @@ groups:
       prefix: '&a[&dCreative&a] &2[Admin]&f'
       build: true
       suffix: ''
+  Head-Admin:
+    default: false
+    permissions: []
+    inheritance:
+    - admin
+    - g:globalgroups_headadmin
+    info:
+      prefix: '&a[&dCreative&a] &d[Head-Admin]&f'
+      build: true
+      suffix: ''
   Co-Owner:
     default: false
     permissions: []
