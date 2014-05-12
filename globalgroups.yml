@@ -90,6 +90,7 @@ groups:
   g:globalgroups_headadmin:
     permissions:
     - lain.group.headadmin
+    - lain.banhammer
     - group.headadmin
     - simpleAutoMessage.simpleautomessage.update
     

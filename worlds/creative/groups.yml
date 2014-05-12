@@ -1,12 +1,78 @@
 # Group inheritance
-# any inherited groups prefixed with a g: are global groups
-# These groups are defined in the globalgroups.yml
-# and can be inherited in any worlds groups/users.yml.
+#
+# Any inherited groups prefixed with a g: are global groups
+# and are inherited from the GlobalGroups.yml.
 #
 # Groups without the g: prefix are groups local to this world
-# and defined in the this groups.yml file.
+# and are defined in the this groups.yml file.
+#
+# Local group inheritances define your promotion tree when using 'manpromote/mandemote'
 
 groups:
+  VIP:
+    default: false
+    permissions:
+    - plotme.limit.70
+    - world.edit.*
+    inheritance:
+    - builder++
+    - g:essentials_vip
+    - g:bukkit_default
+    - g:globalgroups_vip
+    info:
+      prefix: '&a[&dCreative&a] &d[VIP]&f'
+      build: true
+      suffix: ''
+  Owner:
+    default: false
+    permissions: []
+    inheritance:
+    - co-owner
+    - g:globalgroups_owner
+    - g:groupmanager_admin
+    - g:groupmanager_moderator
+    - g:essentials_owner
+    info:
+      prefix: '&a[&dCreative&a] &d[Owner]&f'
+      build: true
+      suffix: ''
+  Builder+:
+    default: false
+    permissions:
+    - -plotme.limit.7
+    - plotme.limit.15
+    inheritance:
+    - builder
+    - g:essentials_builder+
+    - g:globalgroups_builder+
+    info:
+      prefix: '&a[&dCreative&a] &a[Builder&d+&a]&f'
+      build: true
+      suffix: ''
+  Co-Owner:
+    default: false
+    permissions: []
+    inheritance:
+    - admin
+    - g:globalgroups_coowner
+    info:
+      prefix: '&a[&dCreative&a] &d[Co-Owner]&f'
+      build: true
+      suffix: ''
+  Builder++:
+    default: false
+    permissions:
+    - -plotme.limit.15
+    - plotme.limit.30
+    inheritance:
+    - builder+
+    - g:essentials_builder++
+    - g:bukkit_default
+    - g:globalgroups_builder++
+    info:
+      prefix: '&a[&dCreative&a] &a[Builder&d++&a]&f'
+      build: true
+      suffix: ''
   Builder:
     default: true
     permissions:
@@ -19,51 +85,9 @@ groups:
     - g:bukkit_default
     - g:essentials_default
     - g:essentials_builder
-    - g:bukkit_default
     - g:globalgroups_builder
     info:
       prefix: '&a[&dCreative&a] &2[Builder]&f'
-      build: true
-      suffix: ''
-  Builder+:
-    default: false
-    permissions:
-    - -plotme.limit.7
-    - plotme.limit.15
-    inheritance:
-    - Builder
-    - g:essentials_builder+
-    - g:globalgroups_builder+
-    info:
-      prefix: '&a[&dCreative&a] &a[Builder&d+&a]&f'
-      build: true
-      suffix: ''
-  Builder++:
-    default: false
-    permissions:
-    - -plotme.limit.15
-    - plotme.limit.30
-    inheritance:
-    - Builder+
-    - g:essentials_builder++
-    - g:bukkit_default
-    - g:globalgroups_builder++
-    info:
-      prefix: '&a[&dCreative&a] &a[Builder&d++&a]&f'
-      build: true
-      suffix: ''
-  VIP:
-    default: false
-    permissions:
-    - plotme.limit.70
-    - world.edit.*
-    inheritance:
-    - Builder++
-    - g:essentials_vip
-    - g:bukkit_default
-    - g:globalgroups_vip
-    info:
-      prefix: '&a[&dCreative&a] &d[VIP]&f'
       build: true
       suffix: ''
   VIP+:
@@ -75,6 +99,17 @@ groups:
     - g:globalgroups_vip+
     info:
       prefix: '&a[&dCreative&a] &d[VIP&d+&a]&f'
+      build: true
+      suffix: ''
+  Head-Admin:
+    default: false
+    permissions:
+    - worldedit.*
+    inheritance:
+    - admin
+    - g:globalgroups_headadmin
+    info:
+      prefix: '&a[&dCreative&a] &d[Head-Admin]&f'
       build: true
       suffix: ''
   Moderator:
@@ -101,38 +136,5 @@ groups:
     - g:globalgroups_admin
     info:
       prefix: '&a[&dCreative&a] &2[Admin]&f'
-      build: true
-      suffix: ''
-  Head-Admin:
-    default: false
-    permissions: []
-    inheritance:
-    - admin
-    - g:globalgroups_headadmin
-    info:
-      prefix: '&a[&dCreative&a] &d[Head-Admin]&f'
-      build: true
-      suffix: ''
-  Co-Owner:
-    default: false
-    permissions: []
-    inheritance:
-    - admin
-    - g:globalgroups_coowner
-    info:
-      prefix: '&a[&dCreative&a] &d[Co-Owner]&f'
-      build: true
-      suffix: ''
-  Owner:
-    default: false
-    permissions: []
-    inheritance:
-    - Co-Owner
-    - g:globalgroups_owner
-    - g:groupmanager_admin
-    - g:groupmanager_moderator
-    - g:essentials_owner
-    info:
-      prefix: '&a[&dCreative&a] &d[Owner]&f'
       build: true
       suffix: ''
