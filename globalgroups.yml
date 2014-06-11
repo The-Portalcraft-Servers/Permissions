@@ -29,6 +29,8 @@ groups:
     - simpleAutoMessage.simpleautomessage.list
     - commandbouncer.cmd.commandbouncer.list
     - commandbouncer.cmd.commandbouncer.about
+    - like.like
+    - like.likes
     
   g:globalgroups_builder+:
     permissions:
@@ -47,6 +49,7 @@ groups:
     - group.Vip
     - essentials.hat
     - essentials.tp
+    - like.ignore.rankup
 
   g:globalgroups_vip+:
     permissions:

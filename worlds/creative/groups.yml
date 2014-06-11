@@ -92,7 +92,8 @@ groups:
       suffix: ''
   VIP+:
     default: false
-    permissions: []
+    permissions:
+    - worldedit.*
     inheritance:
     - vip
     - g:essentials_vip+
@@ -103,8 +104,7 @@ groups:
       suffix: ''
   Head-Admin:
     default: false
-    permissions:
-    - worldedit.*
+    permissions: []
     inheritance:
     - admin
     - g:globalgroups_headadmin

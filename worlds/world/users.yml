@@ -5,19 +5,40 @@ users:
     subgroups: []
     permissions:
     - lain.user.mod
-    - lain.user.op
     - lain.user.owner
   0c8198e0-77b6-4c7a-8319-5f3246c8dd31:
     lastname: 8404Heather
-    group: VIP
+    group: vip
     subgroups:
     - whitelisted
+    permissions:
+    - lain.make.it.day
+    - nocheatplus.checks.chat
+  10e7185c-717e-4d12-8c2b-586385139359:
+    lastname: kurtrocks112
+    group: Builder
+    subgroups: []
+    permissions: []
+  126c8621-1c34-4789-addf-df935bb9a9b1:
+    lastname: Varsnel
+    group: Builder
+    subgroups: []
     permissions: []
   129d7f6f-da36-4ad1-b403-ca0aa9adfeda:
     lastname: olburk
     group: Builder++
     subgroups:
     - whitelisted
+    permissions: []
+  20cf4e11-8e91-4396-90ec-7575b81bcdf0:
+    lastname: oand
+    group: Builder
+    subgroups: []
+    permissions: []
+  216f0afc-dd70-4d5a-8fa6-1215561d9e48:
+    lastname: pvppontus
+    group: Builder
+    subgroups: []
     permissions: []
   2307d8fc-dbbf-4598-a17c-c00de089381d:
     lastname: olback
@@ -27,17 +48,41 @@ users:
     permissions:
     - lain.user.op
     - lain.user.owner
-  23d9b931-dccf-491d-a27d-5c7043579c84:
-    lastname: flamehawk33
-    group: Moderator
+  2a5a03ef-8daf-45b5-b1df-aa93b3fcd31b:
+    lastname: Alexander783
+    group: Builder
     subgroups: []
-    permissions:
-    - lain.user.mod
+    permissions: []
+  2d48b96f-8258-48b2-bef9-d0d993f9206f:
+    lastname: ardhus
+    group: Builder
+    subgroups: []
+    permissions: []
+  35b56071-4fe6-467e-9c95-820d845e4626:
+    lastname: jeremybrincken
+    group: Builder
+    subgroups: []
+    permissions: []
   39edc745-2ba3-41e8-bb46-19c619426738:
     lastname: Mollykatt27
-    group: VIP
+    group: vip
     subgroups:
     - whitelisted
+    permissions: []
+  3ef85b5d-6265-4d7a-87d8-856006986d87:
+    lastname: cameronjason
+    group: Builder
+    subgroups: []
+    permissions: []
+  40098a88-50e9-4572-8b63-d8ea531da2e5:
+    lastname: oliverboy02
+    group: Builder
+    subgroups: []
+    permissions: []
+  4910993e-6cb3-4981-ad40-15e87e0bbe54:
+    lastname: purple_portal
+    group: Builder
+    subgroups: []
     permissions: []
   5105cc92-0c0f-4503-8820-af2bb62c7600:
     lastname: jonkanon03
@@ -45,7 +90,19 @@ users:
     subgroups:
     - Admin
     permissions:
+    - -essentials.afk.kickexempt
+    - essentials.afk.auto
     - lain.user.admin
+  5d7d1c82-c4bc-4073-ac20-1798bcb057bd:
+    lastname: Alice_Brallis
+    group: Builder
+    subgroups: []
+    permissions: []
+  6196a75f-6b6e-42d0-b9c7-c7c83e5df77a:
+    lastname: emilyreynolds
+    group: Builder
+    subgroups: []
+    permissions: []
   634ee008-e2a1-4b6f-bce0-78e6f38b67b5:
     lastname: carlgo11
     group: Owner
@@ -53,6 +110,16 @@ users:
     permissions:
     - lain.user.op
     - lain.user.owner
+  69037835-af2d-46be-83e5-91912e1905af:
+    lastname: 30noll
+    group: Builder
+    subgroups: []
+    permissions: []
+  6c2edf9e-d1b8-4479-a86e-ea7e5822a568:
+    lastname: mcgirl1114
+    group: Builder
+    subgroups: []
+    permissions: []
   75abb240-a071-4571-b49d-2f872748b319:
     lastname: x10cool
     group: Moderator
@@ -60,48 +127,101 @@ users:
     - whitelisted
     permissions:
     - lain.user.mod
+  8b06a0bb-0afe-4190-a761-9a29aff994d6:
+    lastname: darkness108
+    group: vip
+    subgroups: []
+    permissions: []
+  a0f06bd2-52aa-4810-8aa6-0b2b39b589c2:
+    lastname: Blomman27
+    group: Builder
+    subgroups: []
+    permissions: []
+  a627fb6d-d919-407f-9ef2-0e3c3704c727:
+    lastname: mformat
+    group: Builder
+    subgroups: []
+    permissions: []
+  aecb2ac1-b5e7-4243-9b1b-12658bf71045:
+    lastname: Bananbusken13
+    group: Builder
+    subgroups: []
+    permissions: []
+  b048fd30-e1c1-4f19-a4f0-38172d2d8479:
+    lastname: LUFCPENGUIN
+    group: Builder
+    subgroups: []
+    permissions: []
+  b21d1476-08fa-4672-9a08-76d466da4136:
+    lastname: Lordkamil16
+    group: Builder
+    subgroups: []
+    permissions: []
+  b2cffe99-1c06-4a05-adc0-0af2c5477229:
+    lastname: smurfen111
+    group: Builder
+    subgroups: []
+    permissions: []
   beffed53-4866-4996-9e35-cd2e548d5406:
     lastname: bluefletch
     group: Builder++
     subgroups: []
     permissions:
     - builder++
+  c4533bdd-18d2-4422-bb83-8cfab4156f60:
+    lastname: kickball34
+    group: Builder
+    subgroups: []
+    permissions: []
   c72734d0-2135-4854-835e-aab146673573:
     lastname: ianfreeman
     group: Head-Admin
     subgroups: []
     permissions:
     - lain.user.headadmin
-  carl_westerholm:
-    group: Builder+
-    subgroups:
-    - whitelisted
-    permissions: []
-  carlth2003:
+  c8ee1aba-bcfd-479d-8a7e-ca202bec3298:
+    lastname: olha12
     group: Builder
-    subgroups:
-    - whitelisted
-    permissions: []
-  hula2003:
-    group: Builder
-    subgroups:
-    - whitelisted
-    permissions: []
-  OF1234:
-    group: Builder
-    subgroups:
-    - whitelisted
-    permissions: []
-  SiiooL:
-    group: Builder
-    subgroups:
-    - whitelisted
-    permissions: []
-  Snake_Eyes2003:
-    group: Moderator
     subgroups: []
     permissions: []
-  Zam_2000:
-    group: Builder++
+  c957cd6a-934c-4b2a-a877-c73baff39dbf:
+    lastname: kajsa123kajsa
+    group: Builder
+    subgroups: []
+    permissions: []
+  c990d756-1d22-4c1b-9e0d-8dc34f856027:
+    lastname: 101sierra101
+    group: vip
+    subgroups: []
+    permissions: []
+  d1b164fd-c7fa-4d21-a37b-d664bb72013c:
+    lastname: flashy10
+    group: Builder
+    subgroups: []
+    permissions: []
+  e1dccccc-1260-4f98-bc74-50e915bccb96:
+    lastname: mixis221
+    group: vip
+    subgroups:
+    - whitelisted
+    permissions: []
+  e348ec91-1082-4645-8a2e-b4fcca6251e8:
+    lastname: the_rubber_boot
+    group: Builder+
+    subgroups: []
+    permissions: []
+  f3c592a5-9e44-4176-8c44-9a55892aec41:
+    lastname: ToPoEdiTs
+    group: Builder
+    subgroups: []
+    permissions: []
+  f5233df1-16ef-403e-bb76-552644f3c451:
+    lastname: alnl
+    group: Builder
+    subgroups: []
+    permissions: []
+  fe099f80-dd10-4129-b156-21f0f36b8163:
+    lastname: Pahlos
+    group: Builder
     subgroups: []
     permissions: []
